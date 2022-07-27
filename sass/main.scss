@@ -2,6 +2,9 @@
 @import "./utils/normalize";
 @import "./utils/hidden";
 
+@import "./base/common";
+@import "./base/reset";
+
 @import "./components/header";
 @import "./components/menu";
 @import "./components/logo";
@@ -10,12 +13,15 @@
 @import "./components/main-order";
 @import "./components/hero";
 @import "./components/buttons";
-@import "./components/benefits";
-@import "./components/what-we-do";
-@import "./components/our-team";
-@import "./components/our-clients";
-@import "./components/our-works";
 @import "./components/footer";
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./components/form";
+@import "./components/section";
+@import "./components/container";
+
+@import "./layouts/what-we-do";
+@import "./layouts/our-clients";
+@import "./layouts/our-works";
+@import "./layouts/our-team";
+@import "./layouts/benefits";

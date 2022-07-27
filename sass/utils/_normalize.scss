@@ -1,3 +1,4 @@
+
 /* system */
 html {
 	box-sizing: border-box;
@@ -11,48 +12,18 @@ html {
 	text-decoration: none;
 	color: inherit;
 }
+
 /* Свойства для корректного отображения картинок */
 img {
 	display: block;
 	max-width: 100%;
 	height: auto;
 }
-/* Свойства для обнуления курсива у address */
-address {
-	font-style: normal;
-}
-body{
-    font-family: 'Roboto',  sans-serif;
-    background-color: var(--body-bgd);
-}
-ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 
-}
